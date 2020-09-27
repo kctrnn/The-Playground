@@ -343,4 +343,55 @@ a {
   width: calc(25% - 22.5px);
 }
 
+.subscribe {
+  padding-top: 18rem;
+}
+.subscribe__inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  padding-bottom: 8rem;
+  border-bottom: 2px solid;
+  margin-bottom: 5rem;
+}
+.subscribe__title, .subscribe__info {
+  width: 50%;
+}
+.subscribe__title {
+  font-size: 2rem;
+  font-weight: 600;
+  padding-right: 13rem;
+}
+.subscribe__form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  background-color: #f2f1f6;
+  padding: 2rem;
+  margin-bottom: 4rem;
+}
+.subscribe__input, .subscribe__button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.4rem;
+}
+.subscribe__input {
+  flex-grow: 1;
+  padding-right: 1.5rem;
+}
+.subscribe__button {
+  cursor: pointer;
+  padding: 0;
+}
+.subscribe__social i {
+  margin-left: 3rem;
+  font-size: 2rem;
+}
+
 /*# sourceMappingURL=style.css.map */
