@@ -394,4 +394,22 @@ a {
   font-size: 2rem;
 }
 
+.footer__inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.footer__item {
+  width: 25%;
+}
+.footer__link {
+  display: block;
+  margin-bottom: 3rem;
+  font-size: 1.4rem;
+  color: #3a2e39;
+  font-weight: 500;
+}
+
 /*# sourceMappingURL=style.css.map */
