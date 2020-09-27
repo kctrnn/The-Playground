@@ -44,6 +44,9 @@ a {
   font-size: 1.6rem;
   cursor: pointer;
 }
+.btn:hover {
+  opacity: 0.9;
+}
 .btn--primary {
   background-color: #edb183;
 }
@@ -386,7 +389,6 @@ a {
   padding-right: 1.5rem;
 }
 .subscribe__button {
-  cursor: pointer;
   padding: 0;
 }
 .subscribe__social i {
